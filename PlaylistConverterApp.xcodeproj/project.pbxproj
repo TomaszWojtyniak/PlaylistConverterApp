@@ -14,6 +14,7 @@
 		8BD9C4FD28F18698009D6CC7 /* PlaylistConverterAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD9C4FC28F18698009D6CC7 /* PlaylistConverterAppTests.swift */; };
 		8BD9C50728F18698009D6CC7 /* PlaylistConverterAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD9C50628F18698009D6CC7 /* PlaylistConverterAppUITests.swift */; };
 		8BD9C50928F18698009D6CC7 /* PlaylistConverterAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD9C50828F18698009D6CC7 /* PlaylistConverterAppUITestsLaunchTests.swift */; };
+		8BD9C51628F187A3009D6CC7 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD9C51528F187A3009D6CC7 /* Login.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		8BD9C50228F18698009D6CC7 /* PlaylistConverterAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaylistConverterAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BD9C50628F18698009D6CC7 /* PlaylistConverterAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistConverterAppUITests.swift; sourceTree = "<group>"; };
 		8BD9C50828F18698009D6CC7 /* PlaylistConverterAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistConverterAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8BD9C51528F187A3009D6CC7 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				8BD9C4EA28F18697009D6CC7 /* PlaylistConverterAppApp.swift */,
 				8BD9C4EC28F18697009D6CC7 /* ContentView.swift */,
+				8BD9C51528F187A3009D6CC7 /* Login.swift */,
 				8BD9C4EE28F18698009D6CC7 /* Assets.xcassets */,
 				8BD9C4F028F18698009D6CC7 /* PlaylistConverterApp.entitlements */,
 				8BD9C4F128F18698009D6CC7 /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BD9C51628F187A3009D6CC7 /* Login.swift in Sources */,
 				8BD9C4ED28F18697009D6CC7 /* ContentView.swift in Sources */,
 				8BD9C4EB28F18697009D6CC7 /* PlaylistConverterAppApp.swift in Sources */,
 			);
